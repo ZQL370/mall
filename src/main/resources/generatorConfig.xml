@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
 <!--    windows下路径, D:\downloads\xxx.jar-->
-    <classPathEntry location="/Users/admin/Desktop/mysql-connector-java-5.1.6.jar" />
+    <classPathEntry location="D:\Download\mysql-connector-java-5.1.6.jar" />
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
 
@@ -41,7 +41,8 @@
 
 <!--        <table tableName="mall_order" domainObjectName="Order" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>-->
 <!--        <table tableName="mall_order_item" domainObjectName="OrderItem" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>-->
-        <table tableName="mall_user" domainObjectName="User" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
+        <!--<table tableName="mall_user" domainObjectName="User" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>-->
+        <table tableName="mall_category" domainObjectName="Category" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false"/>
 
     </context>
 </generatorConfiguration>

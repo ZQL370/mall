@@ -15,6 +15,6 @@ public class InterceptorConfig implements WebMvcConfigurer {
 		//添加UserLoginInterceptor()拦截器，默认对所有路径都拦截，除了"/user/login", "/user/register"
 		registry.addInterceptor(new UserLoginInterceptor())
 				.addPathPatterns("/**")
-				.excludePathPatterns("/user/login", "/user/register");
+				.excludePathPatterns("/user/login", "/user/register","/categories");
 	}
 }
